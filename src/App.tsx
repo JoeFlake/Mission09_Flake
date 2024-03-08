@@ -40,8 +40,8 @@ function TeamList() {
   
   return (
     <div className="team-list">
-      {teams.map((team, index) => (
-        <TeamCard key={index} {...team} />
+      {teams.map((team) => (
+        <TeamCard {...team} />
       ))}
     </div>
   );
